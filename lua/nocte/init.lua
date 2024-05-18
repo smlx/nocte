@@ -90,8 +90,6 @@ function M.load()
   -- https://github.com/nvim-treesitter/nvim-treesitter/blob/master/CONTRIBUTING.md#highlights
   vim.api.nvim_set_hl(0, '@include',          { link = 'PreProc' })
   vim.api.nvim_set_hl(0, '@conditional',      { link = 'Keyword' })
-  vim.api.nvim_set_hl(0, '@type.builtin',     { link = 'Type' })
-  vim.api.nvim_set_hl(0, '@function.builtin', { link = 'Function' })
   -- link LSP highlight groups to Treesitter highlight groups
   -- Full list is here:
   -- https://neovim.io/doc/user/lsp.html#lsp-semantic-highlight
