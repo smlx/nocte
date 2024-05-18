@@ -86,11 +86,18 @@ function M.load()
   vim.api.nvim_set_hl(0, 'Type',              { ctermfg = 4 })
   vim.api.nvim_set_hl(0, 'Underlined',        { ctermfg = 4,  cterm = { underline = true } })
   -- link Treesitter highlight groups to regular highlight groups
-  vim.api.nvim_set_hl(0, '@include',     { link = 'PreProc' })
-  vim.api.nvim_set_hl(0, '@conditional', { link = 'Keyword' })
+  -- Full list is here:
+  -- https://github.com/nvim-treesitter/nvim-treesitter/blob/master/CONTRIBUTING.md#highlights
+  vim.api.nvim_set_hl(0, '@include',      { link = 'PreProc' })
+  vim.api.nvim_set_hl(0, '@conditional',  { link = 'Keyword' })
+  vim.api.nvim_set_hl(0, '@type',         { link = 'Type' })
+  vim.api.nvim_set_hl(0, '@type.builtin', { link = 'Type' })
   -- link LSP highlight groups to Treesitter highlight groups
+  -- Full list is here:
+  -- https://neovim.io/doc/user/lsp.html#lsp-semantic-highlight
   vim.api.nvim_set_hl(0, '@lsp.type.include',     { link = '@include' })
   vim.api.nvim_set_hl(0, '@lsp.type.conditional', { link = '@conditional' })
+  vim.api.nvim_set_hl(0, '@lsp.type.type',        { link = '@type' })
   -- gitCommit
   vim.api.nvim_set_hl(0, 'gitCommitBranch',        { ctermfg = 3 })
   vim.api.nvim_set_hl(0, 'gitCommitSelectedType',  { ctermfg = 10 })
