@@ -7,9 +7,6 @@ function M.load()
   if vim.g.colors_name then
     vim.cmd.highlight 'clear'
   end
-  if vim.fn.exists 'syntax_on' then
-    vim.cmd.syntax 'reset'
-  end
   vim.g.colors_name = 'nocte'
   -- vim UI
   vim.api.nvim_set_hl(0, 'Conceal',      { ctermfg = 6 })
