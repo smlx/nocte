@@ -173,6 +173,9 @@ function M.load()
   vim.api.nvim_set_hl(0, 'diffRemoved', { ctermfg = 1 })
   vim.api.nvim_set_hl(0, 'diffFile',    { link = 'PreProc' })
   vim.api.nvim_set_hl(0, 'diffLine',    { link = 'Title' })
+  -- INI
+  vim.api.nvim_set_hl(0, '@property.ini', { link = 'Type' })
+  vim.api.nvim_set_hl(0, '@type.ini',     { link = 'Special' })
 end
 
 return M
