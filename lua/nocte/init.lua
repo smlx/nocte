@@ -10,6 +10,7 @@ function M.load()
   vim.g.colors_name = 'nocte'
   -- vim UI
   vim.api.nvim_set_hl(0, 'Conceal',      { ctermfg = 6 })
+  vim.api.nvim_set_hl(0, 'CurSearch',    { link = 'Search' })
   vim.api.nvim_set_hl(0, 'Cursor',       { ctermfg = 7,  ctermbg = 1 })
   vim.api.nvim_set_hl(0, 'CursorColumn', { link = 'CursorLine' })
   vim.api.nvim_set_hl(0, 'CursorLine',   { ctermbg = 0 })
