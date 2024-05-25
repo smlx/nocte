@@ -5,14 +5,14 @@ Nocte is a [color scheme](https://neovim.io/doc/user/syntax.html#%3Ahighlight) f
 Nocte does not choose a specific palette.
 Instead it uses your terminal color scheme for highlighting.
 
-Nocte is entirely inspired by @noahfrederick's [vim-noctu](https://github.com/noahfrederick/vim-noctu).
-However in Neovim v0.10.0, some of the highlighting links assumed by vim-noctu were changed.
-So I created nocte to maintain the functionality of vim-noctu in recent versions of Neovim.
+Nocte is entirely inspired by [Noah Frederick](https://github.com/noahfrederick)'s [Noctu](https://github.com/noahfrederick/vim-noctu) and uses almost identical color mapping.
+However in Neovim v0.10.0, some of the highlighting links assumed by Noctu [were changed](https://neovim.io/doc/user/news-0.10.html#_-breaking-changes), which broke Noctu.
+So I created Nocte to maintain the functionality of Noctu in Neovim.
 
 ## Features
 
 * Use the same color scheme in Neovim as you do for everything else in your terminal!
-* Zero configuration. Just configure your terminal colors, and nocte will blend in with its environment.
+* Zero configuration. Just configure your terminal colors, and Nocte will blend in with its environment.
 
 ## Requirements
 
@@ -49,7 +49,7 @@ bright7=eeeeec
 
 It gives a result like this:
 
-![Screenshot showing the same terminal color scheme in multiple app. Clockwise from top left: tig, Neovim (markdown), Neovim (gitcommit), htop, Neovim (lua).](screenshot.webp "Screenshot showing the same terminal color scheme in multiple app. Clockwise from top left: tig, Neovim (markdown), Neovim (gitcommit), htop, Neovim (lua).")
+![Screenshot showing the same terminal color scheme in multiple apps. Clockwise from top left: tig, Neovim (markdown), Neovim (gitcommit), htop, Neovim (lua).](screenshot.webp "Screenshot showing the same terminal color scheme in multiple apps. Clockwise from top left: tig, Neovim (markdown), Neovim (gitcommit), htop, Neovim (lua).")
 
 ## The name
 
