@@ -49,7 +49,7 @@ bright7=eeeeec
 
 It gives a result like this:
 
-![Screenshot showing the same terminal color scheme in multiple app. Clockwise from top left: tig, Neovim (markdown), Neovim (gitcommit), htop, Neovim (lua).](screenshot.webp "Nocte screenshot")
+![Screenshot showing the same terminal color scheme in multiple app. Clockwise from top left: tig, Neovim (markdown), Neovim (gitcommit), htop, Neovim (lua).](screenshot.webp "Screenshot showing the same terminal color scheme in multiple app. Clockwise from top left: tig, Neovim (markdown), Neovim (gitcommit), htop, Neovim (lua).")
 
 ## The name
 
