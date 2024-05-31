@@ -13,11 +13,12 @@ So I created Nocte to maintain the functionality of Noctu in Neovim.
 
 * Use the same color scheme in Neovim as you do for everything else in your terminal!
 * Zero configuration. Just configure your terminal colors, and Nocte will blend in with its environment.
+* Works with [LSP Semantic Highlights](https://neovim.io/doc/user/lsp.html#lsp-semantic-highlight) and [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter/blob/master/CONTRIBUTING.md#highlights) highlight groups.
 
 ## Requirements
 
 * Designed for 16-color/4-bit terminals. That's enough for anyone, surely!
-* Only tested against the latest release of Neovim.
+* Only tested against the latest release of Neovim (most recently, v0.10.0).
 
 ## Example / Screenshots
 
